@@ -1,0 +1,21 @@
+<%- include("./partials/header", {title:title}) -%>
+
+<div class="add-patient pages wrapper fadeInDown">
+    <h1 class="w3-wide">ENTER BASIC DETAILS</h1>
+    <BR></BR>
+    <form class="row gy-2 gx-3 align-items-center">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Patient's Name</label>
+            <input type="text" class="form-control inp" id="formGroupExampleInput" placeholder="Enter Patient's Name">
+          </div> 
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Mobile Number</label>
+            <input type="number" class="form-control inp" id="formGroupExampleInput2" placeholder="Enter Patient's Mobile Number">
+          </div>
+          <br><br><br>
+        <input type="submit" class="fadeIn fourth btn-add-patient" value="Submit">
+
+    </form>
+</div>
+
+<%- include("./partials/footer") -%>

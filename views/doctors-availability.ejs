@@ -1,0 +1,22 @@
+<%- include("./partials/header", {title:title}) -%>
+
+<div class="add-patient pages wrapper fadeInDown">
+    <h1 class="w3-wide">ENTER ANY OF CRITERIA</h1>
+    <BR></BR>
+    <form class="row gy-2 gx-3 align-items-center">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Doctor's whole week schedule</label>
+            <input type="text" class="form-control inp" id="formGroupExampleInput" placeholder="Enter Doctor's Name">
+          </div> 
+        <input type="submit" class="fadeIn fourth btn-add-patient" value="Submit">
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">List of doctors on specific day of week</label>
+            <input type="text" class="form-control inp" id="formGroupExampleInput2" placeholder="Enter a day">
+          </div>
+          <br><br><br>
+        <input type="submit" class="fadeIn fourth btn-add-patient" value="Submit">
+
+    </form>
+</div>
+
+<%- include("./partials/footer") -%>
