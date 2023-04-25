@@ -62,6 +62,11 @@ app.get("/contact", function(req, res){
     res.render("contact", {title: "Contact Us"});
 });
 
+app.get("/suggestions", function(req, res){
+    res.render("suggestions", {title:"Suggestions Page"});
+});
+
+
 // listen on a port
 
 app.listen(3000, function(req, res){
