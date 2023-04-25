@@ -1,0 +1,217 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{multirow}
+\title{\underline{\textbf{AROGYA SAHIYA}}}
+\author{VIVEK, ANKIT, MOHIT, PRANAY,ANAS}
+\date{\today}
+\begin{document}
+\maketitle
+\begin{figure}[h]
+    \centering
+    \includegraphics[keepaspectratio,width=0.6\textwidth]{logoXL.png}
+    \caption{IIIT RANCHI}
+    \label{fig:1}
+\end{figure}
+\newpage
+\maketitle
+\begin{abstract}
+
+\section*{Table of contents}
+\section{Introduction}
+
+\section{System Overview}
+\subsection{Product Perspective}
+\subsection{System Interfaces }
+\subsection{User Characteristics}
+\subsection{Constraints}
+\subsection{Assumption}
+
+\section{FUNCTIONAL REQUIREMENTS}
+\subsection{User Registration and Authentication}
+\subsubsection{Registration}
+\subsubsection{Authentication}
+\subsubsection{Hardware Interfaces}
+\subsubsection{Communication Interfaces}
+
+\subsection{User Profile}
+\subsubsection{Personal Information}
+\subsubsection{Health History}
+
+
+\newpage
+
+\subsection{Health Monitoring}
+\subsubsection{Vital Signs}
+\subsubsection{Exercise}
+\subsubsection{Nutrition}
+\subsubsection{Symptoms}
+
+\subsection{Health Recommendations}
+\subsubsection{Fitness Recommendations}
+\subsubsection{Nutrition Recommendations}
+\subsubsection{Health Advice}
+
+\subsection{Communication}
+\subsubsection{ Messaging}
+\subsubsection{Telehealth}
+
+\section{Non-Functional Requirements}
+\subsection{Performance}
+\subsection{Security}
+\subsection{Usability}
+\subsection{Compatibility}
+
+\section{System Architecture}
+\section{System Constraints}
+\subsection{Technology Stack}
+\subsection{Budget}
+\subsection{Scalability}
+
+\section{Development Methodology}
+\section{Conclusion}
+\newpage
+\end{abstract}
+
+\section*{\textbf{INTRODUCTION}} 
+\paragraph{The Arogya Sahiya application is a health and wellness management system designed to provide users with personalized health advice, fitness recommendations, and symptom tracking. The application's primary objective is to help users monitor and improve their health by providing them with real-time feedback based on their health data. Additionally, the application will facilitate communication with healthcare professionals and provide access to relevant health resources. This document outlines the requirements for the development of the Arogya Sahiya system.}
+
+\section*{\textbf{SYSTEM OVERVIEW}} 
+\paragraph{The Arogya Sahiya system will be a mobile and web-based application that allows users to input and track their health-related data. The application will comprise three components: a user interface, a database, and an API for communication with third-party systems. The system will use machine learning algorithms to analyze user data and provide personalized health recommendations.}
+
+\subsection*{\textbf{Product Prespective}}
+\paragraph{The Arogya Sahiya system will be an independent system that interacts with healthcare professionals and third-party systems through APIs. The system will integrate with wearable health monitoring devices and other health-related applications. The system will provide users with a comprehensive view of their health by consolidating data from various sources.}
+
+\subsection*{\textbf{System Interfaces}}
+\paragraph{The application will have a user interface accessed through a web browser and a mobile application. The system will integrate with third-party systems, such as healthcare providers, pharmacies, and fitness tracking devices. The system will also have an API that will allow the system to interact with external systems. The API will be well-documented and designed to be easy to use.
+}
+\newpage
+\subsection*{\textbf{User Characteristics}}
+\paragraph{The application will target individuals seeking health and wellness advice. The application will be designed to be accessible to users of all ages and health conditions. The system will also be accessible to healthcare professionals, who can access patient data and provide guidance and recommendations. The system will be designed to be user-friendly and intuitive.
+}
+
+\subsection*{\textbf{Constraints}}
+\paragraph{The Arogya Sahiya system will have the following constraints:
+  \newline - Compliance with health data privacy laws: The system will comply with all relevant health data privacy laws and regulations.
+ \newline - Use of secure authentication and authorization mechanisms: The system will use secure authentication and authorization mechanisms to protect user data.
+\newline - Compatibility with a range of devices and web browsers: The system will be designed to be compatible with a wide range of devices and web browsers.
+\newline Use of scalable and reliable infrastructure: The system will use scalable and reliable infrastructure to handle high traffic volumes.
+}
+
+\subsection*{\textbf{Assumptions}}
+\paragraph{The following assumptions are made about the Arogya Sahiya system:
+ \newline - Users have access to a stable internet connection: The system will require a stable internet connection to function.
+ \newline- Users have basic computer literacy skills: The system will be designed to be user-friendly and intuitive, but users will be expected to have basic computer literacy skills.
+\newline - Wearable health monitoring devices and other health-related applications can be integrated into the system: The system will integrate with wearable health monitoring devices and other health-related applications to provide users with a comprehensive view of their health.
+}
+
+\section*{\textbf{Functional Requirements}} 
+\paragraph{The Arogya Sahiya system will have the following functional requirements:}
+\subsection*{\textbf{User Registration and Authentication}}
+\paragraph{The system will allow users to create an account and log in using their email address and password. The system will use secure authentication and authorization mechanisms to protect user data.
+}
+\subsubsection*{\textbf{Registration}}
+\paragraph{Users can create a new account by providing their name, email address, password, and other relevant personal information. The system will verify the user's email address to ensure that it is valid.
+}
+\subsubsection*{\textbf{Authentication}}
+\paragraph{Users can log in to the system using their email addresses and password. The system will authenticate the user's email address and password to grant them access to the system. If the user enters invalid login credentials, the system will display an error message and prevent access to the system. The system will also allow users to reset their password in case they forget it.
+}
+\subsection*{\textbf{User Profile}} 
+\paragraph{The system will allow users to create and manage their profile information, including personal information, health history, and preferences. The system will use this information to provide personalized health recommendations and track progress.}
+\subsubsection*{\textbf{Personal Information
+}}
+\paragraph{Users can view and update their personal information, such as their name, age, gender, and contact information. The system will also allow users to upload a profile picture.
+}
+\subsubsection*{\textbf{ Health History}}
+\paragraph{Users can input and track their health history, including any medical conditions, allergies, medications, and surgeries. The system will use this information to provide personalized health recommendations.
+}
+\subsubsection*{\textbf{Preferences}}
+\paragraph{Users can set their preferences for language, units of measurement, and notification settings. The system will use these preferences to customize the user experience.
+}
+\subsection*{\textbf{Health Monitoring}} 
+\paragraph{The system will allow users to input and track their health data, including vital signs, exercise, nutrition, and symptoms. The system will use this data to provide personalized health recommendations.}
+\subsubsection*{\textbf{Vital Signs}}
+\paragraph{Users can input and track their vital signs, including blood pressure, heart rate, blood glucose, and weight. The system will use this data to monitor the user's health and provide personalized recommendations.
+}
+\subsubsection*{\textbf{Exercise}}
+\paragraph{Users can input and track their exercise activities, including type, duration, and intensity. The system will use this data to provide personalized fitness recommendations.
+}
+\subsubsection*{\textbf{Nutrition}}
+\paragraph{Users can input and track their food intake and nutritional information, including calories, macronutrients, and micronutrients. The system will use this data to provide personalized nutrition recommendations.
+}
+\subsubsection*{\textbf{Symptoms}}
+\paragraph{Users can input and track their symptoms, such as headaches, fever, and nausea. The system will use this data to provide personalized health recommendations and track progress.
+}
+
+
+\subsection*{\textbf{Health Monitoring}} 
+\paragraph{The system will provide users with personalized health recommendations based on their health data, preferences, and goals.
+}
+\subsubsection*{\textbf{Fitness Recommendations}} 
+\paragraph{The system will provide users with personalized fitness recommendations based on their exercise data and fitness goals.
+}
+\subsubsection*{\textbf{Fitness Recommendations}} 
+\paragraph{The system will provide users with personalized nutrition recommendations based on their nutritional data and dietary goals.
+}
+\subsubsection*{\textbf{Health Advice}} 
+\paragraph{The system will provide users with personalized health advice based on their health data, medical history, and symptoms.
+}
+
+\subsection*{\textbf{Communication}} 
+\paragraph{The system will facilitate communication between users and healthcare professionals.
+}
+\subsubsection*{\textbf{Messaging}} 
+\paragraph{Users can send and receive messages from healthcare professionals, such as doctors and nurses, through the system. The system will ensure the privacy and security of these messages.
+}
+\subsubsection*{\textbf{Telehealth}} 
+\paragraph{The system will allow users to schedule and attend telehealth appointments with healthcare professionals.
+}
+
+
+\section*{\textbf{Non-Functional Requirements}} 
+\paragraph{The Arogya Sahiya system will have the following non-functional requirements:
+}
+\subsection*{\textbf{Performance}}
+\paragraph{The system will be designed to handle high traffic volumes and provide real-time feedback to users.}
+\subsection*{\textbf{Security}}
+\paragraph{The system will use secure authentication and authorization mechanisms to protect user data. The system will also comply with relevant health data privacy laws and regulations.}
+\subsection*{\textbf{Usability}}
+\paragraph{The system will be designed to be user-friendly and intuitive, with a clean and modern user interface.}
+\subsection*{\textbf{Compatibility}}
+\paragraph{The system will be compatible with a wide range of devices and web browsers.}
+
+\newpage
+\section*{\textbf{System Architecture}} 
+\paragraph{The Arogya Sahiya system will be built on a microservices architecture, with each microservice responsible for specific functionality. The system will use a containerized deployment model
+The microservices architecture will allow for flexibility and scalability, as each microservice can be developed and deployed independently. This will also allow for easier maintenance and upgrades of individual components, without affecting the entire system. The use of containers will ensure consistency and portability across different environments, and make deployment and scaling of the system more efficient.
+The system will also incorporate modern web technologies, including responsive design for mobile devices and progressive web app features, to ensure a seamless and intuitive user experience. The front end will be built using popular web frameworks such as React, Angular, or Vue.js, while the back end will use modern programming languages and frameworks such as Node.js, Django, or Ruby on Rails.
+The system will follow the Agile development methodology, with a focus on iterative development, frequent testing and feedback, and continuous integration and deployment. This approach will ensure that the system meets user requirements, is delivered on time and within budget, and can quickly adapt to changing user needs.
+Overall, the system architecture will be designed with a focus on flexibility, scalability, security, and usability, to provide a robust and reliable health management system for users and healthcare professionals.
+}
+
+\section*{\textbf{System Constraints}}
+\paragraph{The Arogya Sahiya system will have the following constraints:}
+
+\subsection*{\textbf{Technology Stack}}
+\paragraph{The system will be built using modern web technologies, such as React, Node.js, and MongoDB.}
+
+\subsection*{\textbf{Budget}}
+\paragraph{The development and maintenance of the system will be subject to budget constraints.}
+\subsection*{\textbf{Scalability}}
+\paragraph{The system will need to be designed with scalability in mind, to allow for growth in the user base and system usage.}
+
+\section*{\textbf{Development Methodology}}
+\paragraph{The development of the Arogya Sahiya system will follow the Agile development methodology, with regular sprints and feedback from stakeholders. The system will be developed using the Test-Driven Development (TDD) approach to ensure reliability and quality of the system.}
+
+\section*{\textbf{Conclusion}}
+\paragraph{The Arogya Sahiya system will be a comprehensive health management system, allowing users to input and track their health data, receive personalized health recommendations, and communicate with healthcare professionals. The system will be built on a microservices architecture, using modern web technologies and following the Agile development methodology. The system will comply with relevant health data privacy laws and regulations, and ensure the security and usability of user data.
+To achieve its goals, the Arogya Sahiya system will provide a range of features and functionalities. Users will be able to create and manage their profiles, including personal information, health history, and preferences. The system will use this information to provide personalized health recommendations and track progress. 
+The system will also allow users to input and track their vital signs, exercise, nutrition, and symptoms, and use this data to provide personalized health recommendations. This will include fitness and nutrition recommendations based on the user's data and goals, as well as health advice based on their medical history and symptoms. 
+To ensure the privacy and security of user data, the system will use secure authentication and authorization mechanisms, as well as comply with relevant health data privacy laws and regulations. The system will also be designed to handle high traffic volumes and provide real-time feedback to users. 
+In terms of usability, the system will be designed to be user-friendly and intuitive, with a clean and modern user interface. It will also be compatible with a wide range of devices and web browsers, making it accessible to users regardless of their preferred platform. 
+Communication between users and healthcare professionals will also be facilitated through the system, including messaging and telehealth appointments. This will allow users to receive timely and convenient healthcare services, further enhancing their health management capabilities. 
+Overall, the Arogya Sahiya system will provide a comprehensive health management solution, empowering users to take control of their health and well-being. Through its range of features and functionalities, the system will provide personalized health recommendations, secure communication channels, and a user-friendly interface, all built on a robust and modern microservices architecture.}
+ \newpage
+
+
+\end{document}
