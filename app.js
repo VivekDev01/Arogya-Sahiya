@@ -1,3 +1,27 @@
+// // Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
+
+// // Your web app's Firebase configuration
+// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDCU9MrXGzishYwvkX3axpDynipYjyQoX0",
+//   authDomain: "arogya-sahiya.firebaseapp.com",
+//   projectId: "arogya-sahiya",
+//   storageBucket: "arogya-sahiya.appspot.com",
+//   messagingSenderId: "78492852806",
+//   appId: "1:78492852806:web:1a3902b62b18b29371e047",
+//   measurementId: "G-4RX8W9EX85"
+// };
+
+// // Initialize Firebase
+// const appp = initializeApp(firebaseConfig);
+// const analytics = getAnalytics(appp);
+
+
+
 const express=require("express");
 const ejs=require("ejs");
 const app=express();
@@ -72,3 +96,4 @@ app.get("/suggestions", function(req, res){
 app.listen(3000, function(req, res){
     console.log("app is running at port 3000");
 });
+
