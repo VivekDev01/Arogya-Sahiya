@@ -34,11 +34,9 @@
 \subsubsection{Hardware Interfaces}
 \subsubsection{Communication Interfaces}
 
-\subsection{User Profile}
-\subsubsection{Personal Information}
-\subsubsection{Health History}
-
-
+\subsection{User : Sahiya}
+\subsubsection{Sahiya's Personal Information}
+\subsubsection{Sahiya's Performance Credits}
 \newpage
 
 \subsection{Health Monitoring}
@@ -107,64 +105,65 @@
 
 \section*{\textbf{Functional Requirements}} 
 \paragraph{The Arogya Sahiya system will have the following functional requirements:}
-\subsection*{\textbf{User Registration and Authentication}}
-\paragraph{The system will allow users to create an account and log in using their email address and password. The system will use secure authentication and authorization mechanisms to protect user data.
+\subsection*{\textbf{Sahiya Registration and Authentication}}
+\paragraph{The system will allow Sahiya to create an account and log in using their email address and password. The system will use secure authentication and authorization mechanisms to protect user data.
 }
 \subsubsection*{\textbf{Registration}}
-\paragraph{Users can create a new account by providing their name, email address, password, and other relevant personal information. The system will verify the user's email address to ensure that it is valid.
+\paragraph{Sahiya can create a new account by providing their name, email address, password, and other relevant personal information. The system will verify Sahiya's email address to ensure that it is valid.
 }
 \subsubsection*{\textbf{Authentication}}
-\paragraph{Users can log in to the system using their email addresses and password. The system will authenticate the user's email address and password to grant them access to the system. If the user enters invalid login credentials, the system will display an error message and prevent access to the system. The system will also allow users to reset their password in case they forget it.
+\paragraph{Sahiya can log in to the system using their email addresses and password. The system will authenticate Sahiya's email address and password to grant them access to the system. If the user enters invalid login credentials, the system will display an error message and prevent access to the system. The system will also allow Sahiya to reset their password if they forget it.
 }
-\subsection*{\textbf{User Profile}} 
-\paragraph{The system will allow users to create and manage their profile information, including personal information, health history, and preferences. The system will use this information to provide personalized health recommendations and track progress.}
+\subsection*{\textbf{User : Sahiya }} 
+\paragraph{The system will allow Sahiya to create and manage their profile information, including personal information, health history, and preferences. The system will use this information to provide personalized health recommendations and track progress.}
 \subsubsection*{\textbf{Personal Information
 }}
-\paragraph{Users can view and update their personal information, such as their name, age, gender, and contact information. The system will also allow users to upload a profile picture.
+\paragraph{Sahiya can view and update their personal information, such as their name, age, gender, and contact information. The system will also allow Sahiya to upload a profile picture.
+}
+\subsubsection*{\textbf{Performance and Credits
+}}
+\paragraph{The system will show the credits of Sahiya based on the number of patients Sahiya added and checked throughout the week. And will prepare a chart of the top-10 members of the community.
 }
 \subsubsection*{\textbf{ Health History}}
-\paragraph{Users can input and track their health history, including any medical conditions, allergies, medications, and surgeries. The system will use this information to provide personalized health recommendations.
+\paragraph{Sahiya can input and track the health history of the registered patient, including any medical conditions, allergies, medications, and surgeries. The system will use this information to provide personalized health recommendations.
 }
 \subsubsection*{\textbf{Preferences}}
-\paragraph{Users can set their preferences for language, units of measurement, and notification settings. The system will use these preferences to customize the user experience.
+\paragraph{Sahiya can set their preferences for language, units of measurement, and notification settings. The system will use these preferences to customize the user experience.
 }
 \subsection*{\textbf{Health Monitoring}} 
-\paragraph{The system will allow users to input and track their health data, including vital signs, exercise, nutrition, and symptoms. The system will use this data to provide personalized health recommendations.}
+\paragraph{The system will allow Sahiya to input and track their health data, including vital signs, exercise, nutrition, and symptoms. The system will use this data to provide personalized health recommendations.}
 \subsubsection*{\textbf{Vital Signs}}
-\paragraph{Users can input and track their vital signs, including blood pressure, heart rate, blood glucose, and weight. The system will use this data to monitor the user's health and provide personalized recommendations.
+\paragraph{Sahiya can input and track their vital signs, including blood pressure, heart rate, blood glucose, and weight. The system will use this data to monitor the Patient's health and provide personalized recommendations.
 }
 \subsubsection*{\textbf{Exercise}}
-\paragraph{Users can input and track their exercise activities, including type, duration, and intensity. The system will use this data to provide personalized fitness recommendations.
+\paragraph{Sahiya can input and track their exercise activities, including type, duration, and intensity. The system will use this data to provide personalized fitness recommendations.
 }
 \subsubsection*{\textbf{Nutrition}}
-\paragraph{Users can input and track their food intake and nutritional information, including calories, macronutrients, and micronutrients. The system will use this data to provide personalized nutrition recommendations.
+\paragraph{Sahiya can input and track their patient's food intake and nutritional information, including calories, macronutrients, and micronutrients. The system will use this data to provide personalized nutrition recommendations.
 }
 \subsubsection*{\textbf{Symptoms}}
-\paragraph{Users can input and track their symptoms, such as headaches, fever, and nausea. The system will use this data to provide personalized health recommendations and track progress.
+\paragraph{Sahiya can input and track the symptoms of the patient, such as headaches, fever, and nausea. The system will use this data to provide personalized health recommendations and track progress.
 }
 
 
-\subsection*{\textbf{Health Monitoring}} 
-\paragraph{The system will provide users with personalized health recommendations based on their health data, preferences, and goals.
+\subsection*{\textbf{Health Recommendation}} 
+\paragraph{The system will provide Sahiyas with personalized health recommendations of the patients based on their health data, preferences, and goals.
 }
 \subsubsection*{\textbf{Fitness Recommendations}} 
-\paragraph{The system will provide users with personalized fitness recommendations based on their exercise data and fitness goals.
-}
-\subsubsection*{\textbf{Fitness Recommendations}} 
-\paragraph{The system will provide users with personalized nutrition recommendations based on their nutritional data and dietary goals.
+\paragraph{The system will provide Sahiya with personalized fitness recommendations based on the patient's exercise data and fitness goals.
 }
 \subsubsection*{\textbf{Health Advice}} 
-\paragraph{The system will provide users with personalized health advice based on their health data, medical history, and symptoms.
+\paragraph{The system will provide Sahiyas with personalized health advice based on the patinet's health data, medical history, and symptoms.
 }
 
 \subsection*{\textbf{Communication}} 
-\paragraph{The system will facilitate communication between users and healthcare professionals.
+\paragraph{The system will facilitate communication between Sahiyas and healthcare professionals i.e. doctors and nurses.
 }
 \subsubsection*{\textbf{Messaging}} 
-\paragraph{Users can send and receive messages from healthcare professionals, such as doctors and nurses, through the system. The system will ensure the privacy and security of these messages.
+\paragraph{Sahiya can send and receive messages, through the system. The system will ensure the privacy and security of these messages.
 }
 \subsubsection*{\textbf{Telehealth}} 
-\paragraph{The system will allow users to schedule and attend telehealth appointments with healthcare professionals.
+\paragraph{The system will allow Sahiya to schedule telehealth appointments of the patient with healthcare professionals, such as doctors and nurses.
 }
 
 
@@ -172,11 +171,11 @@
 \paragraph{The Arogya Sahiya system will have the following non-functional requirements:
 }
 \subsection*{\textbf{Performance}}
-\paragraph{The system will be designed to handle high traffic volumes and provide real-time feedback to users.}
+\paragraph{The system will be designed to handle high traffic volumes and provide real-time feedback to end users.}
 \subsection*{\textbf{Security}}
 \paragraph{The system will use secure authentication and authorization mechanisms to protect user data. The system will also comply with relevant health data privacy laws and regulations.}
 \subsection*{\textbf{Usability}}
-\paragraph{The system will be designed to be user-friendly and intuitive, with a clean and modern user interface.}
+\paragraph{The system will be designed to be user-friendly and intuitive, with a clean and modern user interface that will be very user-friendly and easy to memorize.}
 \subsection*{\textbf{Compatibility}}
 \paragraph{The system will be compatible with a wide range of devices and web browsers.}
 
